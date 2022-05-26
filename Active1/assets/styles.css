@@ -1,0 +1,126 @@
+@font-face {
+  font-family: ActiveFont-Regular;
+  src: url(./fonts/IBMPlexSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: ActiveFont-SemiBold;
+  src: url(./fonts/IBMPlexSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: ActiveFont-Bold;
+  src: url(./fonts/IBMPlexSans-Bold.ttf);
+}
+
+* {
+  font-family: ActiveFont-Regular;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: rgb(70, 200, 145);
+}
+
+main {
+  margin-top: 50%;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  border-radius: 20px;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.171);
+}
+
+main img {
+  margin-top: 30px;
+  margin-bottom: 10vw;
+}
+
+main,
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.login-form .forgot {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-self: flex-start;
+  color: rgb(156, 168, 180);
+  font-family: ActiveFont-SemiBold;
+}
+
+.login-form input,
+.submitButton {
+  width: 100%;
+}
+
+.login-form {
+  width: 80%;
+}
+
+.email-input,
+.password-input {
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 10px;
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0.192);
+  margin-bottom: 10px;
+  padding: 10px 0px 10px 35px;
+  color: rgb(156, 168, 180);
+}
+
+.email-input {
+  background-image: url(./images/mail.png);
+}
+
+.password-input {
+  background-image: url(./images/lock.png);
+}
+
+.submitButton {
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(70, 200, 145);
+  padding: 15px 20px 15px 20px;
+  color: white;
+  text-align: center;
+}
+
+.no-account {
+  padding: 30px;
+  align-self: center;
+  background-color: white;
+  color: rgb(156, 168, 180);
+}
+
+.no-account a {
+  color: rgb(70, 200, 145);
+}
+
+@media screen and (min-width: 600px) {
+  main {
+    margin-top: 25%;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  main {
+    margin-top: 10%;
+    padding: 5vw;
+    padding-top: 0;
+  }
+}

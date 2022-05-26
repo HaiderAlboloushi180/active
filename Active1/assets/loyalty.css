@@ -1,0 +1,43 @@
+.star {
+  position: absolute;
+  left: 15px;
+}
+
+.star-2 {
+  position: absolute;
+  right: 15px;
+}
+
+@media screen and (max-width: 599px) {
+  .star,
+  .star-2 {
+    width: 50px;
+  }
+
+  main {
+    margin-bottom: 10%;
+  }
+
+  main img {
+    width: 50%;
+  }
+
+  main h1 {
+    font-size: large;
+  }
+
+  .celebrate {
+    margin-top: 110px;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .celebrate {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6vw;
+    margin-bottom: 10%;
+    width: 200px;
+  }
+}

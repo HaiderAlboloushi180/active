@@ -1,0 +1,65 @@
+body {
+  margin-top: 10%;
+  background: rgb(70, 200, 145);
+  position: sticky;
+  bottom: 0;
+}
+
+.main {
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100%;
+}
+
+.widget {
+  text-align: center;
+  background-color: white;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.075);
+  margin: 50px;
+  height: 60vw;
+  border-radius: 20px;
+}
+
+.widget-img {
+  width: 95%;
+  height: 75%;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.widget h1 {
+  font-family: ActiveFont-SemiBold;
+  margin-top: 5px;
+}
+
+a {
+  color: black;
+}
+
+.browse {
+  color: white;
+  margin-left: 10px;
+}
+
+.top-title {
+  margin-left: 4vw;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .widget {
+    width: 50%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  .widget {
+    height: 500px;
+  }
+}
